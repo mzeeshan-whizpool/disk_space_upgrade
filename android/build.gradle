@@ -1,4 +1,4 @@
-group 'de.appgewaltig.disk_space'
+group 'com.whizpool.disk_space_upgrade'
 version '1.0-SNAPSHOT'
 
 buildscript {

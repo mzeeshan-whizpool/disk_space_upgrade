@@ -1,4 +1,4 @@
-package de.appgewaltig.disk_space
+package com.whizpool.disk_space_upgrade
 
 import io.flutter.embedding.engine.plugins.FlutterPlugin
 import io.flutter.plugin.common.BinaryMessenger
@@ -17,7 +17,7 @@ class DiskSpacePlugin: FlutterPlugin {
     }
 
     private fun registerChannel(messenger: BinaryMessenger) {
-      channel = MethodChannel(messenger, "disk_space")
+      channel = MethodChannel(messenger, "disk_space_upgrade")
       channel!!.setMethodCallHandler(handler)
     }
   }

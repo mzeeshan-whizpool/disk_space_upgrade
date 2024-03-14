@@ -1,5 +1,5 @@
 #import "DiskSpacePlugin.h"
-#import <disk_space/disk_space-Swift.h>
+#import <disk_space_upgrade/disk_space_upgrade-Swift.h>
 
 @implementation DiskSpacePlugin
 + (void)registerWithRegistrar:(NSObject<FlutterPluginRegistrar>*)registrar {

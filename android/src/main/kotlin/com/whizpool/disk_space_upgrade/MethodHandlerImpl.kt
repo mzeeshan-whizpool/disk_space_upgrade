@@ -1,4 +1,4 @@
-package de.appgewaltig.disk_space
+package com.whizpool.disk_space_upgrade
 
 import android.os.Environment
 import android.os.StatFs

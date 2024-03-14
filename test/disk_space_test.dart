@@ -1,9 +1,9 @@
 import 'package:flutter/services.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:disk_space/disk_space.dart';
+import 'package:disk_space_upgrade/disk_space_upgrade.dart';
 
 void main() {
-  const MethodChannel channel = MethodChannel('disk_space');
+  const MethodChannel channel = MethodChannel('disk_space_upgrade');
 
   setUp(() {
     channel.setMockMethodCallHandler((MethodCall methodCall) async {
@@ -16,6 +16,6 @@ void main() {
   });
 
   test('getPlatformVersion', () async {
-    expect(await DiskSpace.platformVersion, '42');
+    expect(await DiskSpaceUpgrade.platformVersion, '42');
   });
 }
