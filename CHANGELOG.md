@@ -1,3 +1,7 @@
 ## 0.0.1
 
 - Updated Kotlin Version
+
+## 0.0.2
+
+- Add namespace
